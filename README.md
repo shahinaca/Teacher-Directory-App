@@ -32,8 +32,9 @@
 
 •	open your browser and type URL http://127.0.0.1:8000/
 
-•	Create user with following command
+•	To Login use following Credentials 
 
-	python manage.py createsuperuser
+	username: admin
+	password:admin123
 
 
