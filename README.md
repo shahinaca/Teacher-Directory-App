@@ -4,9 +4,9 @@
 
 •	Move all of this files to django folder project (replace it)
 
-	pip install django
-
 •	open your command line and type 
+
+	pip install django
 
 	python manage.py runserver
 
