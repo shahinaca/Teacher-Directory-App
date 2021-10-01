@@ -1,0 +1,35 @@
+pip install django
+
+
+django-admin startproject main .
+
+python manage.py runserver
+
+
+python manage.py startapp app
+
+
+{% url 'some-url-name' office='foobar' %}
+
+
+manage.py migrate --run-syncdb
+<!--case 'jpg': case 'png':-->
+
+models.py
+
+from django.db import models
+
+class Upload(models.Model):
+    name = models.CharField(max_length=100)
+    file = models.FileField(upload_to="images")
+forms.py
+
+from django import forms
+from app_name.models import Upload
+
+class UploadForm(forms.ModelForm):
+    class Meta:
+        model = Upload
+
+        python manage.py createsuperuser
+
