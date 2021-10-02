@@ -7,7 +7,11 @@
 •	open your command line and type 
 
 	pip install django
-
+	
+	python manage.py makemigrations
+	
+	python manage.py migrate
+	
 	python manage.py runserver
 
 •	open your browser and type URL http://127.0.0.1:8000/
