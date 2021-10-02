@@ -6,29 +6,29 @@
 
 •	open your command line and type
 
-- To install all pip packages
+  To install all pip packages
 	
 	pip install -r requirements.txt
 
 	
-- To install django 
+  To install django 
 
 	pip install django
 	
 	
-- if you are not copying migration file , type following commands.
+  If you are not copying migration file , type following commands.
 	
 	python manage.py makemigrations
 	
 	python manage.py migrate
 	
 	
-- if you are not using existing db, create super user. 
+  If you are not using existing db, create super user. 
 	
 	python manage.py createsuperuser
 	
 	
-- Finally run the project ..
+  Finally run the project ..
 	
 	python manage.py runserver
 
